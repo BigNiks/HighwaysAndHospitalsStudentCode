@@ -1,9 +1,10 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date         |     Time     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                Update |
+|:-------------|:------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| September 9  |    7-8 PM    |                                                                                                  I spent this time trying to figure out a good place to start on this problem. I had an idea to create 2 seperate functions which would calculate the cost of a set amount of hospital / highway but decided that it wouldn't be very efficient to do so. I also thought about creating a map of all the connected cities kind of like we did for snakes and ladders. |
+| September 10 |  2-2:30 PM   |                                                                                                                                                                                                                           I spent this class period thinking about and also starting to execute my map idea. I also have doubts about this map method the more I think about it so I actually don't really know. I'm a little stuck but I am trying to figure it out. |
+| September 11 | 3:30-4:30 PM | While thinking about this problem, I had an idea that maybe we could use a DFS algorithm to solve this. If we could keep track of all connected cities using DFS, I think it could be possible to use it in order to figure out the minimum cost. Thats the idea I'm rolling with right now, so I'm going to work on it for a while before we go over hints in class. This is going to be a little hard though since I forgot how to write a depth first search code. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.

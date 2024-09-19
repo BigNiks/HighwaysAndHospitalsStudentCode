@@ -17,20 +17,37 @@ public class HighwaysAndHospitals {
      *  hospital access for all citizens in Menlo County.
      */
     public static long cost(int n, int hospitalCost, int highwayCost, int cities[][]) {
-        int[] twins = new int[n * 2];
-        Stack<Integer> node = new Stack<>();
-
-         for (int i = 0; i < cities.length; i++) {
-            for (int j = 0; j < cities[0].length; i++) {
-                node.add(cities[i][j]);
+        int x = 0;
+        int y = 0;
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        long cost = 0;
+        int[] map = new int[n + 1];
+        for(int i = 0; i < cities.length; i++) {
+            map[i] = cities[0][i];
+            x = cities[i][0];
+            y = cities[i][1];
+            while (map[a] > 0) {
+                a = x;
+                x = map[a];
+            }
+            while (map[b] > 0) {
+                b = y;
+                y = map[b];
+            }
+            if (a != b) {
+                map[b] = a;
             }
         }
-         for (int no : node) {
-             if (no)
-         }
+        for (int i = 0; i < map.length; i++) {
+            if (map[i] < 0) {
+                c++;
+            }
+        }
+        cost = (long) hospitalCost * c + (n - c) * highwayCost;
 
-
-        return 0;
+        return cost;
     }
 
 }
